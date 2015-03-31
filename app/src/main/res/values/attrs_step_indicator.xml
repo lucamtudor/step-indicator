@@ -1,0 +1,6 @@
+<resources>
+
+    <attr name="tudorluca_StepIndicator" format="reference" />
+    <attr name="tudorluca_StepIndicator.Step" format="reference" />
+
+</resources>
