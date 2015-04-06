@@ -1,4 +1,7 @@
+general:
+    artifacts:
+        - /home/ubuntu/step-indicator/app/build/outputs/apk/
+
 test:
   override:
     - ./gradlew assembleDebug
-    - cp -r step-indicator/app/build/outputs $CIRCLE_ARTIFACTS
