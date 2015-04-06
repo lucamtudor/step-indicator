@@ -1,4 +1,4 @@
 test:
   override:
-    - ./gradlew assemble
+    - ./gradlew assembleDebug
     - cp -r step-indicator/app/build/outputs $CIRCLE_ARTIFACTS
